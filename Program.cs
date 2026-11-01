@@ -5,6 +5,8 @@ class HelloApp
     static void Main(string[] args)
     {
         SayHello();
+        GreetWhite();
+        GreetBlack();
     }
 
     static void SayHello()
@@ -15,5 +17,10 @@ class HelloApp
     static void GreetWhite()
     {
         Console.WriteLine("Hello white");
+    }
+    
+    static void GreetBlack()
+    {
+        Console.WriteLine("Hello black");
     }
 }
