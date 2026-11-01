@@ -9,7 +9,7 @@ class HelloApp
 
     static void SayHello()
     {
-        Console.WriteLine("Hello");
+        Console.WriteLine("Hello everyone");
     }
     
     static void GreetWhite()
